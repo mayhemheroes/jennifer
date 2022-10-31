@@ -28,11 +28,11 @@ func mayhemit(bytes []byte) int {
             test.HeaderComment(content)
             return 0
 
-        case 3:
-            content := string(bytes)
-            var test jen.File
-            test.Save(content)
-            return 0
+        // case 3:
+        //     content := string(bytes)
+        //     var test jen.File
+        //     test.Save(content)
+        //     return 0
 
         default:
             jen.LitByte(bytes[0])
