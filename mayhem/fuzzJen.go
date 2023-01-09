@@ -1,4 +1,4 @@
-package fuzz
+package fuzzJen
 
 import "strconv"
 import "github.com/dave/jennifer/jen"
